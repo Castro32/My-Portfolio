@@ -1,0 +1,477 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: none;
+    transition: all .2s linear;
+    scroll-behavior: smooth;
+}
+*::selection{
+    background-color: lawngreen;
+    color: #333;
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+html ::-webkit-scrollbar{
+    width: 22px;
+}
+html::-webkit-scrollbar-track{
+    background: #223;
+}
+html::-webkit-scrollbar-thumb{
+    background: lawngreen;
+}
+body{
+    background: #333 ;
+    overflow-x: hidden;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+section{
+    min-height: 50vh;
+    padding: 16px;
+}
+.btn{
+    padding: 5px 48px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.btn i{
+    padding: 0 8px;
+    font-size: 25px;
+}
+.btn:hover{
+    background: lawngreen;
+}
+.heading{
+    text-align: center;
+    margin: 0 50px;
+    font-size: 64px;
+    padding: 10px;
+    border-bottom: 1.6px solid #fff4;
+    color: #fff;
+}
+.heading span{
+    color: lawngreen;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 400px;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header  .user img{
+    height: 180px;
+    width: 200px;
+    border-radius: 1px;
+    object-fit: cover;
+    margin-bottom: 3px;
+    border: 3px solid lawngreen;
+}
+header  .user .name{
+    font-size: 25px; 
+    color: #fff;
+}
+header  .user  .post{
+   font-size: 20px;
+   color: #fff;
+}
+header .navbar{
+   width: 80%;
+   padding: 0.5px;
+}
+header  .navbar ul{
+    list-style: none;
+    padding: 2px 5px;
+}
+header  .navbar ul li a{
+   display: block;
+   padding: 1px;
+   margin: 20px 0;
+   background: #333;
+   color: #fff;
+   font-size: 32px;
+   border-radius: 60px;
+}
+header  .navbar ul li a:hover{
+    background: lawngreen;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 0 375px;
+    padding-left: 500px;
+}
+@media only screen and (max-width: 1024px){
+  .home{
+    padding: 0 100px;
+  }
+}
+.skills .row{
+    display: flex;
+    justify-content: inherit;
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
+
+.skills .row .box{
+    width: 300px;
+    background: #222;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+}
+.skills .row .box span{
+    font-size: 64px;
+    color: lawngreen;
+}
+.skills .row .box h3{
+    font-size: 32px;
+    color:#fff
+}
+/* Set a width for the image row */
+.image-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Set a width and height for the images */
+.image-row img {
+  width: 50%;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the section heading */
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Style the "My" part of the heading */
+.projects {
+  padding: 20px;
+}
+   .image-row{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .image-row img{
+    width: 200px;
+  height: auto;
+  margin: 5px;
+  }
+  .hover-effect {
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-effect:hover {
+    opacity: 0.8;
+    background-color: lawngreen;
+  }
+  
+.about {
+  color: #2b8a3e;
+}
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#contact {
+    
+    padding: 10px 0;
+  }
+  .container {
+    max-width: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact .col {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-item {
+    width: calc(20% - 10px);
+    margin-bottom: 4px;
+  }
+  
+  .contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: lawngreen;
+  }
+  
+  .contact-item a {
+    color: lawngreen;
+    text-decoration: none;
+  }
+ 
+  
+  .contact-item:hover a {
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 0;
+    padding: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  form textarea {
+    resize: vertical;
+    min-height: 200px;
+  }
+  
+  form button {
+    background-color: lawngreen;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 0;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: blue;
+  }
+  
+.about .row .counter .box span{
+    font-size: 64px;
+    color: lawngreen;
+    padding-bottom: 3px;
+}
+.about .row .counter .box h3{
+    font-size: 32px;
+    color:#fff
+}
+.home h3{
+    font-size: 50px;
+    color: #fff;
+    padding: 0;
+}
+.home h3 span{
+    color: lawngreen;
+}
+.home p{
+    font-size: 25px;
+    color: #eee;
+    padding: 8px 0;
+}
+.about .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    padding-bottom: 2px;
+}
+.about .row .info{
+    flex: 1 1 400px;
+    padding: 0;
+}
+.about .row .info h3{
+    font-size: 25px;
+    color: lawngreen;
+    padding: 10px 0;
+    font-weight: normal;
+}
+.about .row .info h3 span{
+    color: #eee;
+    padding: 0 4px;
+}
+.about .row .counter{
+    flex:1 1 400px;  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about .row .counter .box{
+    width: 200px;
+    background: #222;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+}
+.about .row .counter .box span{
+    font-size: 64px;
+    color: lawngreen;
+}
+.about .row .counter .box h3{
+    font-size: 32px;
+    color:#fff
+}
+@media only screen and (max-width: 1024px){
+  .home{
+  padding: 0 100px;
+  position: relative;
+  }
+  }
+  
+  @media only screen and (max-width: 768px){
+  header{
+  width: 120%;
+  height: 10%;
+  }
+  header .user img{
+  height: 50px;
+  width: 3000px;
+  margin-bottom: 5px;
+  }
+  header .user .name{
+  font-size: 25px;
+  }
+  header .user .post{
+  font-size: 22px;
+  }
+  header .navbar{
+  padding: 0;
+  }
+  header .navbar ul{
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+  }
+  header .navbar ul li{
+  margin: 10px 0;
+  }
+  header .navbar ul li a{
+  margin: 0;
+  padding: 10px;
+  font-size: 28px;
+  }
+  .home{
+  padding: 0 60px;
+  padding-left: 200px;
+  }
+  .skills .row{
+  justify-content: center;
+  }
+  .skills .row .info h3{
+    padding-left: 10px;
+  }
+  .skills .row .box{
+  width: 250px;
+  margin: 5px;
+  }
+  .skills .row .box span{
+  font-size: 48px;
+  }
+  .skills .row .box h3{
+  font-size: 24px;
+  }
+  .contact .row{
+  justify-content: center;
+  }
+  .contact .row .contact-item{
+  width: 50%;
+  }
+  }
+  
+  @media only screen and (max-width: 480px){
+  html{
+  font-size: 8px;
+  }
+  header .user img{
+  height: 120px;
+  width: 120px;
+  }
+  header .user .name{
+  font-size: 24px;
+  }
+  header .user .post{
+  font-size: 18px;
+  }
+  header .navbar ul li a{
+  font-size: 24px;
+  border-radius: 40px;
+  padding: 8px;
+  margin: 10px 0;
+  }
+  .home{
+  padding: 0 20px;
+  padding-left: 80px;
+  }
+  .skills .row{
+  justify-content: center;
+  }
+  .skills .row .box{
+  width: 200px;
+  margin: 5px;
+  }
+  .skills .row .box span{
+  font-size: 32px;
+  }
+  .skills .row .box h3{
+  font-size: 18px;
+  }
+  .contact .row .contact-item{
+  width: 100%;
+  }
+  }
+  @media only screen and (max-width: 768px){
+    header{
+      height: auto;
+    }
+    header .navbar{
+      display: none;
+    }
+    .home{
+      padding-top: 100px;
+    }
+    .about .row .info h3 span{
+        margin-left: 15px;
+  }
+  }
+footer{
+  font-size: medium;
+  color: lawngreen;
+  padding: 10px;
+}

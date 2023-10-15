@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<header>
+        <div class="user">
+            <img src="cass.jpg">
+            <h3 class="name">Fidel Castro</h3>
+            <p class="post">Front End Developer</p>
+        </div>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>     
+				
+			</ul>
+		</nav>
+	</header>
+		<section class="home" id="home">
+			<h3>Hi,<br>Welcome to My Portfolio...</h3>
+			<h3>I'm<br><span class="name">Fidel Castro</span></h3>
+            <p>A software developer with a passion of creating a user-friendly and visually appealing websites and web applications.</p>
+		</section>
+		<section class="about" id="about">
+            <h1 class="heading"><span class="about">about</span> me</h1>
+            <div class="row">
+             <div class="info">
+                 <h3><span>Name:</span> Fidel Castro </h3>
+                 <h3><span>Age:</span> 21 years</h3>
+                 <h3><span>Qualification:</span><abbr title="Bachelor of Science in Information and Communication Technology">BICT</abbr></h3>
+                 <h3><span>Languages:</span>English and Kiswahili</h3>
+                 <h3><span>Passion and Interests:</span>Web Development , Programming and Cybersecurity</h3>
+                 <h3><span>Values and Goals:</span>Collaboration, Intergrity and Excellence</h3>
+                 <a href="CasResume.docx" download><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+             </div>
+             <div class="counter">
+                 <div class="box">
+                     <span>1+</span>
+                     <h3>years of experience</h3>
+                 </div>
+                 <div class="box">
+                     <span>10+</span>
+                     <h3>Projects Completed</h3>
+                 </div>
+             </div>
+            </div>
+		</section>
+        <section class="skills" id="skills">
+            <h1 class="heading"><span class="about">Skills &amp; </span>Expertise</h1>
+            <div class="counter">
+                <div class="row">
+                        <div class="box">
+                            <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <h3><abbr title="Hypertext Markup Language">HTML</abbr></h3>
+                          </div>
+                          
+                          <div class="box">
+                            <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <h3><abbr title="Bootstrap">BOOTSTRAP</abbr></h3>
+                          </div>
+                          <div class="box">
+                            <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <h3><abbr title="Cascading StyleSheet">CSS</abbr></h3>
+                          </div>
+                          <div class="box">
+                            <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                            <h3>Python</h3>
+                           </div>           
+                        <div class="col-md-6">
+                           <div class="box">
+                             <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                             <h3><abbr title="JavaScript">JavaScript</abbr></h3>
+                           </div>
+                           <div class="box">
+                            <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                            <h3>MySql</h3>
+                           </div>
+                           
+                        </div>                                         
+                </div>
+            </div>
+          </section> 
+          <section class="projects" id="projects">
+            <h1 class="heading"><span class="about">My</span> Projects</h1>
+            <div class="image-row">
+              <img src="calc.png">
+              <a href="http://flight-website.surge.sh" target="_blank">
+                <img src="ndege.jpg" alt="Flight Website" class="hover-effect">
+              </a>
+            </div>
+          </section>
+          <section class="contact" id="contact">
+            <h1 class="heading"><span class="about">Contact</span> me</h1>
+            <div class="row">
+              <div class="col">
+                <div class="col">
+                  <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <a href="https://wa.me/+254114096574/" target="_blank">WhatsApp</a>
+                  </div>
+                <div class="contact-item">
+                  <i class="fa fa-phone"></i>
+                  <a href="tel:+254114096574" target="_blank">Call</a>
+                </div>
+                <div class="contact-item">
+                  <i class="fab fa-linkedin"></i>
+                  <a href="" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                  <i class="fab fa-twitter"></i>
+                  <a href="https://twitter.com/fidel_castro32/" target="_blank">Twitter</a>
+                </div>
+                <div class="contact-item">
+                  <i class="fab fa-instagram"></i>
+                  <a href="https://www.instagram.com/cas_fide.l/" target="_blank">Instagram</a>
+                </div>
+              </div>  
+              </div>
+            </div>
+          </section>
+          
+              <form id="contact-form" method="post" action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <a href="mailto:okanga.fidel@gmail.com" target="_blank"> 
+                  <button type="button" class="btn-primary" onclick="location.href='mailto:okanga.fidel@gmail.com'">Send Message</button>
+                </a> 
+              </form>
+              
+            </div>
+          </section> 
+	</main>
+	<footer>
+		<p>&copy; 2023 My Portfolio. All rights reserved.</p>
+	</footer>
+</body>
+<script src="script.js"></script>
+</html>
