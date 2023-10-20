@@ -34,4 +34,4 @@ Thank you for visiting my portfolio. I hope you find the contents informative an
 
 
 
-Regenerate
+
