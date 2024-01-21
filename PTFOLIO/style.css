@@ -120,11 +120,7 @@ header  .navbar ul li a:hover{
     padding: 0 375px;
     padding-left: 500px;
 }
-@media only screen and (max-width: 1024px){
-  .home{
-    padding: 0 100px;
-  }
-}
+
 .skills .row{
     display: flex;
     justify-content: inherit;
@@ -292,6 +288,14 @@ header  .navbar ul li a:hover{
     font-size: 32px;
     color:#fff
 }
+.home h2{
+  font-size: 30px;
+    color: #fff;
+    padding: 0;
+}
+.home h2 span{
+  color: lawngreen;
+}
 .home h3{
     font-size: 50px;
     color: #fff;
@@ -301,7 +305,7 @@ header  .navbar ul li a:hover{
     color: lawngreen;
 }
 .home p{
-    font-size: 25px;
+    font-size: 20px;
     color: #eee;
     padding: 8px 0;
 }
@@ -348,12 +352,6 @@ header  .navbar ul li a:hover{
     font-size: 32px;
     color:#fff
 }
-@media only screen and (max-width: 1024px){
-  .home{
-  padding: 0 100px;
-  position: relative;
-  }
-  }
   
   @media only screen and (max-width: 768px){
   header{
@@ -415,30 +413,11 @@ header  .navbar ul li a:hover{
   }
   }
   
-  @media only screen and (max-width: 480px){
+  @media (max-width: 768px){
   html{
   font-size: 8px;
   }
-  header .user img{
-  height: 120px;
-  width: 120px;
-  }
-  header .user .name{
-  font-size: 24px;
-  }
-  header .user .post{
-  font-size: 18px;
-  }
-  header .navbar ul li a{
-  font-size: 24px;
-  border-radius: 40px;
-  padding: 8px;
-  margin: 10px 0;
-  }
-  .home{
-  padding: 0 20px;
-  padding-left: 80px;
-  }
+ 
   .skills .row{
   justify-content: center;
   }
@@ -460,18 +439,52 @@ header  .navbar ul li a:hover{
     header{
       height: auto;
     }
+    header .user img{
+      display: flex;
+      justify-content: center;
+      height: 133px;
+      width: 140px;
+    }
+    header .user .name{
+      color: lawngreen;
+    }
     header .navbar{
       display: none;
     }
     .home{
-      padding-top: 100px;
+      padding: 0 20px;
+      padding-left: 0px;
     }
+    .home h2{
+      display: none;
+    }
+    .home p{
+      font-size: 25px;
+      color: #eee;
+      padding-top: 78px;
+  }
     .about .row .info h3 span{
-        margin-left: 15px;
+        margin-left: 0px;
   }
+  .about .row .info a{
+    display: flex;
+    justify-content: center;
   }
-footer{
-  font-size: medium;
-  color: lawngreen;
-  padding: 10px;
+  .about .row .counter{
+    padding: 30px;
+    gap: 20px;
+  }
+  .about .row .counter .box h3{
+    font-size: 17px;
+  }
+  .about .row .counter .box {
+    width: 130px;
+    gap: 50px;
+    font-size: small;
+  }
+    footer{
+      font-size: medium;
+      color: lawngreen;
+      padding: 10px;
+  }
 }
