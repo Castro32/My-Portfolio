@@ -69,6 +69,7 @@ header{
     z-index: 1000;
     height: 100%;
     width: 400px;
+    padding-right: 30px;
     background: #1a1a1a;
     display: flex;
     align-items: center;
