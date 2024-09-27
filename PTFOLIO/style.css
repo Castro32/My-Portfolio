@@ -121,7 +121,9 @@ header  .navbar ul li a:hover{
     padding: 0 375px;
     padding-left: 500px;
 }
-
+.skills{
+  margin-left: 80px;
+}
 .skills .row{
     display: flex;
     justify-content: inherit;
